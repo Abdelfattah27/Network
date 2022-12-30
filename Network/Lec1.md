@@ -7,7 +7,7 @@
 3. **ISP** Internet service provider
 4. **IXP** Internet exchange point
 5. **WWW** World wide web : application of the internet
-6. **URL** Uniform resource allocator
+6. **URL** Uniform resource locator
    - 17 message.
      - 6 to find ip
      - 3 for connection established for tcp
@@ -21,7 +21,7 @@
 12. **SAN** System area network - ROOM
 13. **MAC** Media Access Control
 14. **S-TDM** Synchronous Time Division Multiplexing
-15. **F-TDM** Synchronous Frequency Division Multiplexing
+15. **S-FDM** Synchronous Frequency Division Multiplexing
 16. **IP** Internet protocol
 17. **RRP** request/reply protocol
 18. **MSP** message stream protocol
