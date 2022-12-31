@@ -54,6 +54,17 @@
     - Stop and wait
     - Sliding Window
     - Concurrent logical channel
+37. **CSMA/CD** Carrier sense multiple access with collision detection
+38. **TDMA** Time division multiple access
+39. **IBBS** Independent Basic Service Set
+40. **AP** Access Point
+41. **BBS** Basic service sets
+42. **OFDM** orthogonal Frequency Division multiplexing
+43. **WI-FI** wireless fidelity
+44. **RTS** request to sent
+45. **CLS** clear to send
+46. **DSLAM** digital subscriber line access multiplexer
+47. **DSL** Digital subscriber line
 
 ## definitions
 
@@ -112,9 +123,22 @@
       - next bit is 1 ?
         - next bit is 0 ? the frame ends
         - next bit = 1 ? error
-33. **Acknowledgment** a small control frame (header without data) that a protocol sends back to it's peer saying it has recieved an earlier frame
-34. **Timeout** the action of waiting a rsponsable amount of time
-35.
+33. **Acknowledgment** a small control frame (header without data) that a protocol sends back to it's peer saying it has received an earlier frame
+34. **Timeout** the action of waiting a reasonable amount of time
+35. **Multiple access** a set of hosts can send and receive frames over a shared network, a frame sent by host is received by all other hosts but accepted by the intended host(s)
+36. **MAC** distributed algorithm running on the nodes determine how thy can share the channel, when they can transmit frames
+37. **Channel partitioning** divide the channel into small pieces (time slots, frequency, code) and allocate piece to node for exclusive use _like_ FDMA , TDMA
+38. **Random access** Channel nor divided just allow collision and recover from collision _like_ ALOHA, CSMA, CSMA/CA, and CSMA/CD
+39. **Take turns** nodes take turns to send, but nodes with more data can take longer turns _like_ bluetooth, token ring, FDDI
+40. **CSMA/CD**
+    1. **Carrier sense** means that the node can destingush between idle and busy link
+    2. **multiple access** means that set of nodes can send and receive ove ra shared link
+    3. **Collision detection** means that the node can listen while transmit so it can detect when the frame is collided with other frame
+41. **Repeater** device used to forward digital signals much like amplifier in forwarding analog signals
+42. **HUB** multiple variant repeater
+43. **Transceiver** A small device attached to the tp of ethernet, detects if the line is idle and drive the outgoing signals and receive the incoming signals
+44. **Terminator** attached to the end of each segment to absorb the signal and keep it from bouncing back
+45.
 
 ## Resource Sharing
 
