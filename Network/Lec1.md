@@ -235,8 +235,9 @@
    - hosts directly connected via physical medium or logical channel
      1. Point to point :
      2. Multiple access
-   - switched
 2. InDirect
+   - switched
+   - interconnection of network
 
 ## proplems of connecting a network
 
